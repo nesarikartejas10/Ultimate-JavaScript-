@@ -1,0 +1,74 @@
+👉JavaScript Code Execution & Global Execution Context
+👉 Event Loop, Call Stack & Concurrency
+👉 Hoisting (Variables & Functions) 
+👉 Var vs Let vs Const 
+👉 Arrow Functions vs Traditional Functions & this
+👉 Closures in JavaScript 
+👉 Classes, Objects & Getters/Setters
+👉 Working with JavaScript Objects
+👉 Optional Chaining (?.), Nullish Coalescing (??), Logical OR (||) 
+👉 Object & Array Destructuring 
+👉 Shallow vs Deep Copy
+👉 Array Methods: map(), filter(), reduce(), join(), split(), find(), findIndex(), splice(), slice()
+👉 Apply, Bind & Call Methods 
+👉 Prototype & Inheritance 
+👉 Boolean Values, Ternary Operator & Short-Circuiting
+👉 Spread & Rest Operators 
+👉 Set & Map
+👉 Debouncing & Throttling in JavaScript
+👉 Event Delegation, Event Bubbling & capturing
+👉 Promises & Async/Await
+👉 Memoization
+👉 ES6 Modules (export vs export default) 
+
+
+👉 What are the data types in JavaScript? 
+👉 What is the difference between == and ===? 
+👉 What is the difference between null and undefined? 
+👉 What is the difference between not defined and undefined? 
+👉 Explain the concept of hoisting in JavaScript. 
+👉 What is the difference between let, const, and var? 
+👉 What is variable scope in JavaScript? 
+👉 Explain the difference between global and local variables. 
+👉 What is the temporal dead zone? 
+👉 What is variable shadowing? 
+👉 What is a closure in JavaScript? 
+👉 What are the different ways to define a function in JavaScript? 
+👉 What is a higher-order function? 
+👉 What is a pure function & impure function? 
+👉 What is the difference between function declaration and function expression? 
+👉 What is an Immediately Invoked Function Expression (IIFE)?
+👉 How do you create an object in JavaScript?
+👉 How do you add/remove properties to an object dynamically?
+👉 How do you check if a property exists in an object?
+👉 What is the purpose of the this keyword in JavaScript?
+👉 What are the different ways to loop through an array in JavaScript?
+👉 Explain the difference between for...in and for...of loops.
+👉 How do you add/remove elements from an array?
+👉 What is the purpose of the map() function?
+👉 Explain the difference between filter() and find() methods.
+👉 Explain the difference between some() and every() method.
+👉 How do you select elements in the DOM using JavaScript?
+👉 How do you create and append elements to the DOM?
+👉 Explain the difference between innerHTML and textContent.
+👉 How do you remove an element from the DOM?
+👉 What are arrow functions and how do they differ from regular functions? 
+👉 Explain the concept of destructuring in JavaScript. 
+👉 What are template literals? 
+👉 How do you use the spread operator? 
+👉 What are default parameters in ES6? 
+👉 How do you use the rest parameter in functions? 
+👉 What is callback & callback hell explain with example
+👉 What is a Promise in JavaScript with example?
+👉 How do you chain Promises?
+👉 What is the purpose of the Promise.all() method?
+👉 What is the purpose of the finally() method in Promises?
+👉 What is the purpose of the async await ?
+👉 How do you handle errors in async/await?
+👉 What is the difference between async/await and Promises?
+👉 What is the difference between default and named exports? 
+👉 How do you convert a JavaScript object to a JSON string ? 
+👉 How do you parse a JSON string back into a JavaScript object? 
+👉 What is localStorage in JavaScript, and how do you store and retrieve data from it? 
+👉 What is the difference between localStorage and sessionStorage? 
+👉 How do you delete a specific item from localStorage or clear all data from it? 

@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 10px 16px;
+  background-color: #0ff;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#input {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  width: 15rem;
+}
+
+.start-btn {
+  cursor: not-allowed;
+}

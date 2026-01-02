@@ -1,0 +1,6 @@
+.bulb-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  gap: 10px;
+}

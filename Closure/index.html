@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures</title>
+    <style>
+        body{
+            font-family: cursive;
+        }
+        h1{
+            text-decoration: underline;
+        }
+        p {
+            font-size: 20px;
+            text-align: justify;
+        }
+        code{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introduction of Closure</h1>
+    <p>Closure is the combination of a function bundled together with its lexical environment. Closure gives you access to an outer function scope from an inner function.</p>
+    <code><pre>function parent(){
+        let a = 'Hello';
+        function child(){
+            console.log(a);
+        }
+        return child;
+    }
+    
+    const result = parent();
+    result();
+    </pre></code>
+    <p>In this above example child function which creates a clouser with scope of the parent function. So here parent function not only return the child function also return the variable accessed by child function.</p>
+    <script src="script.js"></script>
+</body>
+</html>
