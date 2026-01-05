@@ -75,7 +75,7 @@ const stopwatch = {
 
 // stopwatch.start();
 
-//DOM
+//6 DOM
 const button = document.getElementById("btn");
 
 button.addEventListener("click", function () {
