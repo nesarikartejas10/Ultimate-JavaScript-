@@ -1,229 +1,345 @@
-🔹 A. JavaScript Core & Execution (FOUNDATION)
+WEEK 1 (Days 1–7): JS CORE + EXECUTION (Balanced)
+Day 1
 
-JavaScript code execution & Global Execution Context
-
-Call Stack & JavaScript being single-threaded
-
-Event Loop (with diagram explanation)
-
-Web APIs
-
-Microtasks vs Macrotasks
-
-What happens when setTimeout(fn, 0) is used?
-
-Hoisting (variables & functions)
-
-var vs let vs const
-
-Temporal Dead Zone (TDZ)
-
-Variable scope (global, function, block)
-
-Variable shadowing
+Easy:
 
 Data types in JavaScript
 
 null vs undefined
 
-not defined vs undefined
+Hard:
+
+Global Execution Context
+
+JavaScript is single-threaded + Call Stack
+
+Day 2
+
+Easy:
 
 == vs ===
 
-Boolean values & truthy/falsy
+Truthy & falsy values
+
+Hard:
+
+Event Loop
+
+Web APIs
+
+Day 3
+
+Easy:
+
+var vs let vs const
+
+Variable scope
+
+Hard:
+
+Hoisting (variables & functions)
+
+Temporal Dead Zone
+
+Day 4
+
+Easy:
 
 Ternary operator
 
-Short-circuiting (&&, ||, ??)
+Short-circuiting (&&, ||)
 
-🔹 B. Functions & Functional JavaScript
+Hard:
 
-Function declaration vs function expression
+Microtasks vs Macrotasks
 
-Different ways to define a function
+setTimeout(fn, 0) explanation
 
-Arrow functions vs traditional functions
+Day 5
 
-this keyword (global, function, object, arrow)
+Easy:
 
-Closures (definition + real-world use cases)
+not defined vs undefined
 
-Higher-order functions
+Variable shadowing
 
-Pure vs impure functions
+Hard:
 
-IIFE (Immediately Invoked Function Expression)
+Event Loop with Promise example
+
+Execution order explanation
+
+Day 6
+
+🔁 Revision (Day 1–5)
+
+Re-explain Event Loop aloud
+
+Write 2 hoisting outputs
+
+Day 7
+
+🎤 Mock Q&A + weak areas
+
+🟢 WEEK 2 (Days 8–14): FUNCTIONS & OBJECTS (Balanced)
+Day 8
+
+Easy:
+
+Function declaration vs expression
 
 Default parameters
 
-Rest parameters
+Hard:
 
-Memoization
+this keyword (different contexts)
 
-Currying in JavaScript
+Arrow vs regular functions (this)
+
+Day 9
+
+Easy:
 
 Callback functions
 
-Callback hell (problem & solution)
+Rest parameters
 
-🔹 C. Objects, Prototype & OOP
+Hard:
 
-Creating objects in JavaScript
+Closures (with real example)
 
-Adding/removing properties dynamically
+Callback hell & solution
 
-Checking if a property exists
+Day 10
 
-Working with JavaScript objects
+Easy:
 
-Object.keys, values, entries
+Pure vs impure functions
 
-Shallow copy vs deep copy
+IIFE
 
-Spread operator
+Hard:
+
+Higher-order functions
+
+Currying
+
+Day 11
+
+Easy:
+
+Creating objects
+
+Adding/removing properties
+
+Hard:
+
+Prototype
+
+Prototype chain
+
+Day 12
+
+Easy:
 
 Object destructuring
 
-Prototype & prototype chain
+Spread operator
 
-Inheritance in JavaScript
+Hard:
 
-Classes in JavaScript
-
-Getters & setters
-
-Object.freeze() vs Object.seal()
+Shallow vs deep copy
 
 Deep freeze vs shallow freeze
 
-Immutability & why it matters (especially in React)
+Day 13
 
-🔹 D. Arrays, Loops & Data Structures
+Easy:
 
-Array methods overview
+Classes
+
+Getters & setters
+
+Hard:
+
+Inheritance
+
+Immutability (why important in React)
+
+Day 14
+
+🔁 Full revision + answer practice
+
+🟢 WEEK 3 (Days 15–21): ARRAYS + ASYNC + PERFORMANCE
+Day 15
+
+Easy:
 
 map()
 
 filter()
 
+Hard:
+
 reduce()
-
-find() vs filter()
-
-findIndex()
-
-slice() vs splice()
-
-join() & split()
-
-some() vs every()
-
-Adding/removing elements from arrays
-
-Looping methods (for, forEach)
-
-for...in vs for...of
 
 When NOT to use map()
 
-🔹 E. this, Call, Bind & Apply
+Day 16
 
-this keyword deep dive
+Easy:
 
-call()
+find() vs filter()
 
-apply()
+some() vs every()
 
-bind()
+Hard:
 
-Difference between call, apply & bind
+slice() vs splice()
 
-this behavior inside arrow functions in objects
+Array mutation vs non-mutation
 
-🔹 F. Asynchronous JavaScript (VERY IMPORTANT)
+Day 17
 
-Synchronous vs asynchronous JavaScript
+Easy:
 
-Promises (states & example)
+for loop
+
+forEach()
+
+Hard:
+
+for...in vs for...of
+
+Real-world loop usage
+
+Day 18
+
+Easy:
+
+Promise basics
+
+Promise states
+
+Hard:
 
 Promise chaining
 
-Promise.all()
+Promise.all() behavior
 
-Promise.race()
+Day 19
 
-Promise.any()
+Easy:
 
-finally() method
+async/await syntax
 
-async/await
+finally()
 
-Error handling in async/await
+Hard:
 
 async/await vs Promises
 
-Event Loop with Promise example
+Error handling in async/await
 
-Memory leaks in JavaScript
+Day 20
 
-Garbage collection (basic idea)
-
-🔹 G. Performance & Optimization
+Easy:
 
 Debouncing
 
 Throttling
 
+Hard:
+
 Difference between debouncing & throttling
 
-Why debouncing/throttling improves performance
+Performance optimization use cases
 
-Memoization vs caching
+Day 21
 
-🔹 H. DOM & Browser
+🔁 Async + array full revision
+
+🟢 WEEK 4 (Days 22–28): DOM + ES6 + FINAL PREP
+Day 22
+
+Easy:
 
 Selecting DOM elements
 
-Creating & appending DOM elements
+Creating & appending elements
 
-innerHTML vs textContent
-
-Removing DOM elements
-
-Event delegation
+Hard:
 
 Event bubbling
 
 Event capturing
 
-🔹 I. Modern JavaScript (ES6+)
+Day 23
+
+Easy:
+
+innerHTML vs textContent
+
+Removing DOM elements
+
+Hard:
+
+Event delegation
+
+Real-world delegation example
+
+Day 24
+
+Easy:
 
 Template literals
 
-Spread operator (array & object)
+Logical OR (||)
+
+Hard:
 
 Optional chaining (?.)
 
 Nullish coalescing (??)
 
-Logical OR (||)
+Day 25
 
-ES6 Modules
+Easy:
 
-Named export vs default export
+Named export
+
+Default export
+
+Hard:
+
+ES6 Modules workflow
 
 Polyfills (what & why)
 
-🔹 J. JSON, Storage & Browser APIs
+Day 26
 
-JSON.stringify()
+Easy:
 
-JSON.parse()
+JSON.stringify
 
-localStorage (store & retrieve)
+JSON.parse
+
+Hard:
 
 localStorage vs sessionStorage
 
-Removing single item from storage
+Storage use cases
 
-Clearing storage
+Day 27
+
+🔁 FULL REVISION (Weak areas only)
+
+Event Loop
+
+Closures
+
+Async
+
+Day 28
+
+🎤 FINAL MOCK INTERVIEW + RAPID FIRE
