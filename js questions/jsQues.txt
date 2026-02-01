@@ -1,74 +1,229 @@
-👉JavaScript Code Execution & Global Execution Context
-👉 Event Loop, Call Stack & Concurrency
-👉 Hoisting (Variables & Functions) 
-👉 Var vs Let vs Const 
-👉 Arrow Functions vs Traditional Functions & this
-👉 Closures in JavaScript 
-👉 Classes, Objects & Getters/Setters
-👉 Working with JavaScript Objects
-👉 Optional Chaining (?.), Nullish Coalescing (??), Logical OR (||) 
-👉 Object & Array Destructuring 
-👉 Shallow vs Deep Copy
-👉 Array Methods: map(), filter(), reduce(), join(), split(), find(), findIndex(), splice(), slice()
-👉 Apply, Bind & Call Methods 
-👉 Prototype & Inheritance 
-👉 Boolean Values, Ternary Operator & Short-Circuiting
-👉 Spread & Rest Operators 
-👉 Set & Map
-👉 Debouncing & Throttling in JavaScript
-👉 Event Delegation, Event Bubbling & capturing
-👉 Promises & Async/Await
-👉 Memoization
-👉 ES6 Modules (export vs export default) 
+🔹 A. JavaScript Core & Execution (FOUNDATION)
 
+JavaScript code execution & Global Execution Context
 
-👉 What are the data types in JavaScript? 
-👉 What is the difference between == and ===? 
-👉 What is the difference between null and undefined? 
-👉 What is the difference between not defined and undefined? 
-👉 Explain the concept of hoisting in JavaScript. 
-👉 What is the difference between let, const, and var? 
-👉 What is variable scope in JavaScript? 
-👉 Explain the difference between global and local variables. 
-👉 What is the temporal dead zone? 
-👉 What is variable shadowing? 
-👉 What is a closure in JavaScript? 
-👉 What are the different ways to define a function in JavaScript? 
-👉 What is a higher-order function? 
-👉 What is a pure function & impure function? 
-👉 What is the difference between function declaration and function expression? 
-👉 What is an Immediately Invoked Function Expression (IIFE)?
-👉 How do you create an object in JavaScript?
-👉 How do you add/remove properties to an object dynamically?
-👉 How do you check if a property exists in an object?
-👉 What is the purpose of the this keyword in JavaScript?
-👉 What are the different ways to loop through an array in JavaScript?
-👉 Explain the difference between for...in and for...of loops.
-👉 How do you add/remove elements from an array?
-👉 What is the purpose of the map() function?
-👉 Explain the difference between filter() and find() methods.
-👉 Explain the difference between some() and every() method.
-👉 How do you select elements in the DOM using JavaScript?
-👉 How do you create and append elements to the DOM?
-👉 Explain the difference between innerHTML and textContent.
-👉 How do you remove an element from the DOM?
-👉 What are arrow functions and how do they differ from regular functions? 
-👉 Explain the concept of destructuring in JavaScript. 
-👉 What are template literals? 
-👉 How do you use the spread operator? 
-👉 What are default parameters in ES6? 
-👉 How do you use the rest parameter in functions? 
-👉 What is callback & callback hell explain with example
-👉 What is a Promise in JavaScript with example?
-👉 How do you chain Promises?
-👉 What is the purpose of the Promise.all() method?
-👉 What is the purpose of the finally() method in Promises?
-👉 What is the purpose of the async await ?
-👉 How do you handle errors in async/await?
-👉 What is the difference between async/await and Promises?
-👉 What is the difference between default and named exports? 
-👉 How do you convert a JavaScript object to a JSON string ? 
-👉 How do you parse a JSON string back into a JavaScript object? 
-👉 What is localStorage in JavaScript, and how do you store and retrieve data from it? 
-👉 What is the difference between localStorage and sessionStorage? 
-👉 How do you delete a specific item from localStorage or clear all data from it? 
+Call Stack & JavaScript being single-threaded
+
+Event Loop (with diagram explanation)
+
+Web APIs
+
+Microtasks vs Macrotasks
+
+What happens when setTimeout(fn, 0) is used?
+
+Hoisting (variables & functions)
+
+var vs let vs const
+
+Temporal Dead Zone (TDZ)
+
+Variable scope (global, function, block)
+
+Variable shadowing
+
+Data types in JavaScript
+
+null vs undefined
+
+not defined vs undefined
+
+== vs ===
+
+Boolean values & truthy/falsy
+
+Ternary operator
+
+Short-circuiting (&&, ||, ??)
+
+🔹 B. Functions & Functional JavaScript
+
+Function declaration vs function expression
+
+Different ways to define a function
+
+Arrow functions vs traditional functions
+
+this keyword (global, function, object, arrow)
+
+Closures (definition + real-world use cases)
+
+Higher-order functions
+
+Pure vs impure functions
+
+IIFE (Immediately Invoked Function Expression)
+
+Default parameters
+
+Rest parameters
+
+Memoization
+
+Currying in JavaScript
+
+Callback functions
+
+Callback hell (problem & solution)
+
+🔹 C. Objects, Prototype & OOP
+
+Creating objects in JavaScript
+
+Adding/removing properties dynamically
+
+Checking if a property exists
+
+Working with JavaScript objects
+
+Object.keys, values, entries
+
+Shallow copy vs deep copy
+
+Spread operator
+
+Object destructuring
+
+Prototype & prototype chain
+
+Inheritance in JavaScript
+
+Classes in JavaScript
+
+Getters & setters
+
+Object.freeze() vs Object.seal()
+
+Deep freeze vs shallow freeze
+
+Immutability & why it matters (especially in React)
+
+🔹 D. Arrays, Loops & Data Structures
+
+Array methods overview
+
+map()
+
+filter()
+
+reduce()
+
+find() vs filter()
+
+findIndex()
+
+slice() vs splice()
+
+join() & split()
+
+some() vs every()
+
+Adding/removing elements from arrays
+
+Looping methods (for, forEach)
+
+for...in vs for...of
+
+When NOT to use map()
+
+🔹 E. this, Call, Bind & Apply
+
+this keyword deep dive
+
+call()
+
+apply()
+
+bind()
+
+Difference between call, apply & bind
+
+this behavior inside arrow functions in objects
+
+🔹 F. Asynchronous JavaScript (VERY IMPORTANT)
+
+Synchronous vs asynchronous JavaScript
+
+Promises (states & example)
+
+Promise chaining
+
+Promise.all()
+
+Promise.race()
+
+Promise.any()
+
+finally() method
+
+async/await
+
+Error handling in async/await
+
+async/await vs Promises
+
+Event Loop with Promise example
+
+Memory leaks in JavaScript
+
+Garbage collection (basic idea)
+
+🔹 G. Performance & Optimization
+
+Debouncing
+
+Throttling
+
+Difference between debouncing & throttling
+
+Why debouncing/throttling improves performance
+
+Memoization vs caching
+
+🔹 H. DOM & Browser
+
+Selecting DOM elements
+
+Creating & appending DOM elements
+
+innerHTML vs textContent
+
+Removing DOM elements
+
+Event delegation
+
+Event bubbling
+
+Event capturing
+
+🔹 I. Modern JavaScript (ES6+)
+
+Template literals
+
+Spread operator (array & object)
+
+Optional chaining (?.)
+
+Nullish coalescing (??)
+
+Logical OR (||)
+
+ES6 Modules
+
+Named export vs default export
+
+Polyfills (what & why)
+
+🔹 J. JSON, Storage & Browser APIs
+
+JSON.stringify()
+
+JSON.parse()
+
+localStorage (store & retrieve)
+
+localStorage vs sessionStorage
+
+Removing single item from storage
+
+Clearing storage
