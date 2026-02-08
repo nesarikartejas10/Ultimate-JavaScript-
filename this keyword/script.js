@@ -1,6 +1,7 @@
-"use strict";
+// "use strict";
 
 //1. this in global scope
+
 //in node js env => {}
 //in browser => Window
 
@@ -52,12 +53,13 @@ const greeting = () => {
 
 // greeting();
 
-//Arrow function usecase
+// Arrow function usecase
 // const stopwatch = {
 //   second: 0,
 //   start: function () {
 //     setInterval(function () {
 //       this.second++;
+//       console.log(this);
 //       console.log(this.second); //NaN =>because here function invoked by setInterval so that this pointing to the setInterval, to solve this issue we use arrow function
 //     }, 1000);
 //   },
@@ -76,8 +78,8 @@ const stopwatch = {
 // stopwatch.start();
 
 //6 DOM
-const button = document.getElementById("btn");
+// const button = document.getElementById("btn");
 
-button.addEventListener("click", function () {
-  console.log(this);
-});
+// button.addEventListener("click", function () {
+//   console.log(this);
+// });

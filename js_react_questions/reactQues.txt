@@ -1,0 +1,157 @@
+🟢 WEEK 1 (Days 1–7): REACT CORE (FOUNDATION)
+Day 1
+
+Easy: What is React?
+
+Hard: How React works (Virtual DOM, Reconciliation, Fiber)
+
+Day 2
+
+Easy: JSX
+
+Hard: Virtual DOM vs Real DOM
+
+Day 3
+
+Easy: Components
+
+Hard: Why React is fast
+
+Day 4
+
+Easy: Functional vs Class Components
+
+Hard: Re-rendering in React (when & why)
+
+Day 5
+
+Easy: State vs Props
+
+Hard: Batching of state updates
+
+Day 6
+
+🔁 Revision (Day 1–5)
+
+Explain React workflow without notes
+
+Draw React render flow (mental model)
+
+Day 7
+
+🎤 Mock Interview (React Core)
+
+🟢 WEEK 2 (Days 8–14): HOOKS + LIFECYCLE
+Day 8
+
+Easy: Hooks overview & rules
+
+Hard: useState (real example + pitfalls)
+
+Day 9
+
+Easy: useEffect
+
+Hard: Cleanup function in useEffect
+
+Day 10
+
+Easy: useRef
+
+Hard: useEffect vs useLayoutEffect
+
+Day 11
+
+Easy: useContext
+
+Hard: Context API re-render issue
+
+Day 12
+
+Easy: useReducer
+
+Hard: useReducer vs useState
+
+Day 13
+
+Easy: Custom Hooks
+
+Hard: When & why to create custom hooks
+
+Day 14
+
+🔁 Hooks + Lifecycle Revision
+
+Lifecycle methods (Class components)
+
+Mounting, Updating, Unmounting
+
+componentDidMount vs useEffect
+
+🟢 WEEK 3 (Days 15–21): PERFORMANCE, PATTERNS & ADVANCED
+Day 15
+
+Easy: React.memo
+
+Hard: Preventing unnecessary re-renders
+
+Day 16
+
+Easy: Pure Component
+
+Hard: React.memo vs PureComponent
+
+Day 17
+
+Easy: useMemo
+
+Hard: useMemo vs useCallback
+
+Day 18
+
+Easy: useCallback
+
+Hard: When NOT to use useMemo/useCallback
+
+Day 19
+
+Easy: Controlled Components
+
+Hard: Controlled vs Uncontrolled
+
+Day 20
+
+Easy: Props Drilling
+
+Hard: Lifting State Up
+
+Day 21
+
+🔁 Performance + Patterns Revision
+
+Identify re-render problems in code
+
+🟢 WEEK 4 (Days 22–25): ADVANCED REACT (VERY IMPORTANT)
+Day 22
+
+Easy: Error Boundaries
+
+Hard: Why Error Boundaries don’t catch async errors
+
+Day 23
+
+Easy: Higher Order Components (HOC)
+
+Hard: HOC vs Custom Hooks
+
+Day 24
+
+Easy: forwardRef
+
+Hard: forwardRef + useImperativeHandle (real use case)
+
+Day 25
+
+Easy: Code Splitting & Lazy Loading
+
+Hard: CSR vs SSR vs SSG
