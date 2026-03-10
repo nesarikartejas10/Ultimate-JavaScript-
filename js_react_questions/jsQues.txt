@@ -150,7 +150,7 @@ Hard:
 
 Shallow vs deep copy
 
-Deep freeze vs shallow freeze
+Object.freeze() vs Object.seal()
 
 Day 13
 

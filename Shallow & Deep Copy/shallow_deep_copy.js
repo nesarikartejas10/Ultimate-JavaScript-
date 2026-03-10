@@ -25,6 +25,9 @@ const obj1 = {
 // console.log(obj2);
 
 //Deep Copy
+
+// const copy = structuredClone(obj1);
+
 // const obj2 = JSON.parse(JSON.stringify(obj1));
 // obj2.name = "Soham";
 // obj2.details.designation = "Tester";
